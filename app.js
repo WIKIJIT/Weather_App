@@ -75,7 +75,7 @@ function b(latValue,longValue)
     aqiValue = Math.max(aqiValue,cValue);
     aqiValue = Math.max(aqiValue,oValue);
     aqiValue = Math.max(aqiValue,pmValue);
-    aqi.innerHTML = "AQI - "+aqiValue;
+    aqi.innerHTML = "AQI - "+parseInt(aqiValue);
     co.innerHTML = "CO - "+coValue+" mg/m3";
     pmI.innerHTML = "PM10 - "+pm10Value+" µg/m3";
     o3I.innerHTML = "O3 - "+o3Value+" µg/m3";
