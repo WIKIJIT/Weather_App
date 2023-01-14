@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 *{
   margin:0;
   padding: 0;
@@ -5,21 +7,58 @@
 }
 
 body{
-  font-family: "Nunito",sans-serif;
-  background: #f8f8f8;
+  font-family: 'Poppins', sans-serif;
+  background-image: url(background.jpg);
+  background-size:     cover;                     
+  background-repeat:   no-repeat;
+  background-position: center center;    
+}
+
+main{
+  padding: 20px;
+  margin-top: 10px;
+  background-color: #f8f8f8;
+  border-radius: 20px;
+  width: 600px;
+  height: 360px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 10px 20px 10px rgba(112, 102, 102, 0.2);
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;
+  color: #6AADFE;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+}
+
+.holder{
+  text-align: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 50px;
 }
 
 .input{
   text-align: center;
-  margin: 100px auto;
+  margin: 50px auto;
 }
 
 input[type="submit"]{
-  padding: 15px 30px;
-  background: #e7e7e7;
+  width: 100px;
+  height: 55px;
+  padding: 10px 10px;
+  background: #676af3;
   border: none;
-  border-radius: 1px;
-  font-family: "Nunito",sans-serif;
+  color: #e7e7e7;
+  border-radius: 30px;
+  font-family: 'Poppins', sans-serif;
   font-weight:bold;
   font-size: 20px;
 }
@@ -27,11 +66,11 @@ input[type="submit"]{
 .input input[type="text"]{
   width: 600px;
   height: 55px;
-  padding: 5px 10px;
+  padding: 20px 30px;
   background: #e7e7e7;
   border: none;
-  border-radius: 1px;
-  font-family: "Nunito",sans-serif;
+  border-radius: 30px;
+  font-family: 'Poppins', sans-serif;
   font-weight:bold;
   font-size: 20px;
 }
