@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
 body{
   font-family: 'Poppins', sans-serif;
   background-image: url(background.jpg);
@@ -20,7 +25,7 @@ main{
   background-color: #f8f8f8;
   border-radius: 20px;
   width: 600px;
-  height: 360px;
+  height: fit-content;
   display: block;
   margin-left: auto;
   margin-right: auto;
