@@ -77,7 +77,7 @@ function b(latValue,longValue)
     aqiValue = Math.max(aqiValue,pmValue);
     aqi.innerHTML = "AQI - "+aqiValue;
     co.innerHTML = "CO - "+coValue+" mg/m3";
-    pmI.innerHTML = "PM10 - "+pmValue+" µg/m3";
+    pmI.innerHTML = "PM10 - "+pm10Value+" µg/m3";
     o3I.innerHTML = "O3 - "+o3Value+" µg/m3";
     exit(0);
   })
@@ -290,7 +290,7 @@ try{
   var longValue = null;
   var aqiValue = null;
   var coValue = null;
-  var pmValue = null;
+  var pm10Value = null;
   var o3Value = null;
   main.innerHTML = "Place not Found!";
   desc.innerHTML = "Desc - "+descValue;
@@ -301,7 +301,7 @@ try{
   long.innerHTML = "Longitude - "+longValue;
   aqi.innerHTML = "AQI - "+aqiValue;
   co.innerHTML = "CO - "+coValue;
-  pmI.innerHTML = "PM10 - "+pmValue;
+  pmI.innerHTML = "PM10 - "+pm10Value;
   o3I.innerHTML = "O3 - "+o3Value;
 }
 
