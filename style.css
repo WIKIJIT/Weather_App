@@ -1,25 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   height: 100%;
 }
 
-body{
-  font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
   background-image: url(background.jpg);
-  background-size:     cover;                     
-  background-repeat:   no-repeat;
-  background-position: center center;    
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-main{
+main {
   padding: 20px;
   margin-top: 10px;
   background-color: #f8f8f8;
@@ -32,17 +33,21 @@ main{
   box-shadow: 10px 10px 20px 10px rgba(112, 102, 102, 0.2);
 }
 
-h1{
-  font-family: 'Poppins', sans-serif;
-  color: #6AADFE;
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: #6aadfe;
 }
 
-p{
-  font-family: 'Poppins', sans-serif;
+p {
+  font-family: "Poppins", sans-serif;
 }
 
-.holder{
+.holder {
   text-align: center;
+}
+
+#app-container {
+  display: none;
 }
 
 .title {
@@ -50,12 +55,12 @@ p{
   font-size: 50px;
 }
 
-.input{
+.input {
   text-align: center;
   margin: 50px auto;
 }
 
-input[type="submit"]{
+input[type="submit"] {
   width: 100px;
   height: 55px;
   padding: 10px 10px;
@@ -63,24 +68,24 @@ input[type="submit"]{
   border: none;
   color: #e7e7e7;
   border-radius: 30px;
-  font-family: 'Poppins', sans-serif;
-  font-weight:bold;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
   font-size: 20px;
 }
 
-.input input[type="text"]{
+.input input[type="text"] {
   width: 600px;
   height: 55px;
   padding: 20px 30px;
   background: #e7e7e7;
   border: none;
   border-radius: 30px;
-  font-family: 'Poppins', sans-serif;
-  font-weight:bold;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
   font-size: 20px;
 }
 
-.card{
+.card {
   width: 50%;
   background: #e7e7e7;
   height: 40vh;
@@ -88,21 +93,39 @@ input[type="submit"]{
   border-radius: 2px;
 }
 
-
-.close{
+.close {
   float: right;
   margin-top: -2px;
   cursor: pointer;
   margin-right: 20px;
 }
 
-.card h1{
+.card h1 {
   padding: 5px 0;
   text-align: center;
 }
 
-.card p{
+.card p {
   text-align: center;
-  margin:40px 40px;
-  font-size:20px;
+  margin: 40px 40px;
+  font-size: 20px;
+}
+
+.github-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.github-button a {
+  display: inline-block;
+  background-color: black;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.github-button img {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
 }
