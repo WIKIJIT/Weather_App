@@ -13,9 +13,16 @@ var feels = document.querySelector(".feels");
 var clouds = document.querySelector(".clouds");
 var button = document.querySelector(".submit");
 
+input.addEventListener("keyup", function (event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    button.click();
+  }
+});
+
 function getAQI(latValue, longValue) {
   return fetch(
-    "http://api.openweathermap.org/data/2.5/air_pollution?lat=" +
+    "https://api.openweathermap.org/data/2.5/air_pollution?lat=" +
       latValue +
       "&lon=" +
       longValue +
